@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  <header>
+    <div class="background-active-menu" id="menu-mobile"></div>
+    <div id="main-header">
+
+      <div id="main_nav">
+        <div id="header_mobile">
+          <img class="logo" src="./images/logo.svg" alt="">
+          <button id="btn_burger_menu"><div class="bodymovinanim"></div></button>
+        </div>
+        <nav id="header_desktop">
+          <ul id="nav_bar">
+            <li class="nav-links about">About</li>
+            <li class="nav-links career">Careers</li>
+            <li class="nav-links event">Events</li>
+            <li class="nav-links product">Products</li>
+            <li class="nav-links support">Support</li>
+          </ul>
+        </nav>
+      </div>
+      <div id="title_header">
+        <p class="text-header all-titles">Immersive experiences that deliver</p>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container-interactiveVR">
+      <img class="img-interactive" src="./images/mobile/image-interactive.jpg" alt="image-interactive">
+      <div class="text-interactiveVR">
+        <h1 class="all-titles title-VR">The leader in interactive VR</h1>
+        <p class="text-VR">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+          projects for some of the best companies around the globe. Our award-winning 
+          creations have transformed businesses through digital experiences that bind 
+          to their brand.</p>
+      </div>
+    </div>
+    <div class="title-creations-seeAll">
+      <h1 class="all-titles title-creations">Our creations</h1>
+      <button class="btn-seeAll" id="btn-seeAll-desktop">See all</button>
+    </div>
+
+    <section id="cards_container">
+      <article id="card_deep_earth" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">Deep <br> earth</h1>
+      </article>
+
+      <article id="card_night_arcade" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">Night <br> arcade</h1>
+      </article>
+
+      <article id="card_soccer_team" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">Soccer <br> team VR</h1>
+      </article>
+    
+      <article id="card_the_grid" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">The <br> grid</h1>
+      </article>
+
+      <article id="card_from_up_above_vr" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">From up <br> above VR</h1>
+      </article>
+
+      <article id="card_pocket_borealis" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">Pocket <br> borealis</h1>
+      </article>
+
+      <article id="card_the_curiosity" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">The <br> curiosity</h1>
+      </article>
+
+      <article id="card_fisheye" class="card">
+        <div class="layer-card"></div>
+        <h1 class="title-card all-titles">Make it <br> fisheye</h1>
+      </article>
+  </section>
+  <button class="btn-seeAll" id="btn-seeAll-mobile">See all</button>
+  </main>
+
+  <footer>
+    <div>
+      <img class="logo_footer" src="./images/logo.svg" alt="logo">
+      <ul id="nav_bar_footer">
+        <li class="list-item-footer-nav">About</li>
+        <li class="list-item-footer-nav">Careers</li>
+        <li class="list-item-footer-nav">Events</li>
+        <li class="list-item-footer-nav">Products</li>
+        <li class="list-item-footer-nav">Support</li>
+      </ul>
+    </div>
+
+    <div>
+      <ul id="list_social_media">
+        <li class="list-item-footer-social-media"><img src="./images/icon-facebook.svg" alt="fb"></li>
+        <li class="list-item-footer-social-media"><img src="./images/icon-twitter.svg" alt="tw"></li>
+        <li class="list-item-footer-social-media"><img src="./images/icon-pinterest.svg" alt="pinterest"></li>
+        <li class="list-item-footer-social-media"><img src="./images/icon-instagram.svg" alt="ig"></li>
+      </ul>
+      <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>
+<script src="js/lottie.js"></script>
+<script src="js/burger.js"></script>
+</html>
