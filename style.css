@@ -247,6 +247,25 @@ footer{
     margin-top: 25px;
 }
 
+.attribution{
+    width: 100%;
+    line-height: 30px;
+    bottom: 10px;
+    text-align: center;
+}
+
+.attribution a{
+    text-decoration: underline wavy #00b4d8;
+    color: #00b4d8;
+    transition: all 0.3s
+}
+
+.attribution a:hover{
+    transition: all, 0.3s ;
+    color: #f72585;
+    text-decoration: underline wavy #f72585;
+}
+
 @media screen and (min-width:768px) {
     .text-VR {
         line-height: 2rem;
@@ -651,17 +670,17 @@ footer{
     .list-item-footer-nav{
         border-bottom: solid 2px transparent;
         padding-bottom: 5px;
+        position: relative;
     }
 
-    .list-item-footer-nav:hover > .list-item-footer-nav:after{
+    .link-nav{
+        text-decoration: none;
+        color: #fff;
+    }
+    .list-item-footer-nav:hover{
         cursor: pointer;
-        content: '';
-        position: absolute;
-        width: 50%;
-        display: block;
-        height: 2px;
-        background-color: var(--white);
-        bottom: -2px;
+        border-bottom: solid 2px var(--white);
+        transition: 0.3s;
     }
 }
 
