@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a.link-nav {
+    color: white;
+    text-decoration: none;
+}
+
 :root{
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
